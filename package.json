@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/app.js",
-    "test": " nyc --all mocha --recursive test/*.test.js ",
-    "build": "babel-node src --out-dir dist"
+    "test": " nyc --all mocha  test/*.test.js "
   },
   "type":"module",
   "author": "",
