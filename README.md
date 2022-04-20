@@ -1,1 +1,1 @@
-![CI]('https://github.com/furebo/githubactionsexample2/actions/workflows/actions.yml/badge.svg')
+![CI](https://github.com/furebo/githubactionsexample2/actions/workflows/actions.yml/badge.svg)
