@@ -1,4 +1,4 @@
-name: Github Actions example
+name: Github Actions example 
 
 on: 
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    name: Running units tests
+    name: Running units tests 
     runs-on: ubuntu-latest
 
     steps:
@@ -17,7 +17,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install
+      - name: Install the dependances
         run : npm install
+      - name: Run test
+        run: npm run test
 
       
