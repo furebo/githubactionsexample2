@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/api',(req,res)=>{
-    res.send({message:'please enter your credentials'});
+    res.send({message:'please enter your credentials !!!'});
 })
 
 app.listen(3000,()=>{
