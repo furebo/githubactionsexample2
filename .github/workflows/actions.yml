@@ -3,7 +3,7 @@ name: Github Actions example
 on: 
   push:
     branches:
-      - main
+      - development
 
 
 jobs:
