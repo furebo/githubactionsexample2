@@ -1,17 +1,21 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import express from 'express';
 
 const app = express();
-
+const port = process.env.PORT
 app.get('/',(req,res)=>{
-    res.send({message:'Welcome to my application'});
+    res.json({message:'Welcome to my application'});
 })
 
 app.get('/api',(req,res)=>{
-    res.send({message:'please enter your credentials !!!'});
+    res.json({message:'please enter your credentials !!!'});
 })
 
-app.listen(3000,()=>{
-    console.log("App is listening on port 3000!!!");
+
+app.listen(port,()=>{
+    console.log(`App is listening on port ${port} !!!`);
 })
 
 export default app
