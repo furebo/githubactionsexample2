@@ -18,3 +18,19 @@ describe('My welcome message test',()=>{
     })
 })
 
+<<<<<<< HEAD
+=======
+describe('Asking for credentials',()=>{
+    before((done)=>{
+        done();
+    })
+    it('should require to enter credentials',(done)=>{
+        chai.request(app)
+        .get('/api')
+        .end((err,res)=>{
+            res.body.should.have.property('message').eql('please enter your credentials');
+            done();
+        })
+    })
+})
+>>>>>>> 8fa0f17 (changed the branch in yml file)

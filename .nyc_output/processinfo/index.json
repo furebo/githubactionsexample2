@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"processes":{"c54c0af8-8387-42dd-8c9b-20ab6e31afdf":{"parent":null,"children":[]}},"files":{"/Users/andelarwanda/Desktop/ciandcd/src/app.js":["c54c0af8-8387-42dd-8c9b-20ab6e31afdf"]},"externalIds":{}}
+=======
+{"processes":{"736ccad0-57a0-4efe-be9e-5a2c144de3f1":{"parent":null,"children":[]}},"files":{"/Users/andelarwanda/Desktop/ciandcd/src/app.js":["736ccad0-57a0-4efe-be9e-5a2c144de3f1"]},"externalIds":{}}
+>>>>>>> 8fa0f17 (changed the branch in yml file)

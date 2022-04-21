@@ -19,7 +19,12 @@ jobs:
 
       - name: Install the dependances
         run : npm install
+<<<<<<< HEAD
       - name: Run test
         run: npm run test
 
+=======
+      - name: build
+        run: npm build
+>>>>>>> 8fa0f17 (changed the branch in yml file)
       
